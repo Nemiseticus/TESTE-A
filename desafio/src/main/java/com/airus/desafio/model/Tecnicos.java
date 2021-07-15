@@ -21,6 +21,16 @@ public class Tecnicos {
 	
 	//@OneToMany
 	private String descricaoTecnico ;
+	
+	private long id_especialidades ;
+
+	public long getId_especialidades() {
+		return id_especialidades;
+	}
+
+	public void setId_especialidades(long id_especialidades) {
+		this.id_especialidades = id_especialidades;
+	}
 
 	public long getId() {
 		return id;
