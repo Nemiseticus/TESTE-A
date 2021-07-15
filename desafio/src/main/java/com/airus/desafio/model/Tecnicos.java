@@ -22,7 +22,7 @@ public class Tecnicos {
 	//@OneToMany
 	private String descricaoTecnico ;
 	
-	private long id_especialidades ;
+	private long id_especialidades ; //Chave estrangeira 
 
 	public long getId_especialidades() {
 		return id_especialidades;
